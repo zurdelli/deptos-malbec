@@ -201,7 +201,7 @@ footer .redes {
     color: #fff;
     transition: background .3s ease; }
   footer .redes .twitter:hover {
-    background: #1da1f2; }
+    background: red; }
   footer .redes .facebook:hover {
     background: #3b5998; }
   footer .redes .instagram:hover {

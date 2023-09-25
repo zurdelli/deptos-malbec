@@ -170,29 +170,3 @@ $('.imagen').click(function(e) {
   e.stopPropagation();
 });
 
-
-//funcion google maps
-function initMap() {
-  var uluru = {
-    lat: -32.887501,
-    lng: -68.826583
-  };
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 13,
-    center: uluru
-  });
-  // var marker = new google.maps.Marker({
-  //   position: uluru,
-  //   map: map
-  // });
-  var marker2 = new google.maps.Circle({
-    strokeColor: '#FF0000',
-    strokeOpacity: 0.8,
-    strokeWeight: 2,
-    fillColor: '#FF0000',
-    fillOpacity: 0.35,
-    map: map,
-    center: uluru,
-    radius: 500
-  });
-}
